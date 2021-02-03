@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="crm_project1" version="4">
+  <OBJECT>
+    <ID name="crm_project1" mc="Standard.Package" uid="e3b7e533-a836-4d4b-a770-4b69996a43c8"/>
+    <PID name="CRM_Project1" mc="Standard.Project" uid="786dd018-de48-48d7-bfe8-5994ed025847"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[crm_project1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="9dc2228b-0cb1-4808-8efa-0af850e36484"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="f2e080e0-d3a3-4e2e-8d9c-f0909f263ba7"/>
+        <COMPID name="Interaction2" mc="Standard.Interaction" uid="ff1a0bd8-d457-4b97-a2ce-7c708e12e07a"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Class" uid="8459f034-06b3-4c1e-95b5-47f8311241d4"/>
+        <COMPID name="Order" mc="Standard.Class" uid="200995e0-ddcb-4f43-bf82-956216668c38"/>
+        <COMPID name="OrderEntry" mc="Standard.Class" uid="da5540ee-f4ad-4201-b1d3-34af4fd8db7f"/>
+        <COMPID name="Role" mc="Standard.Class" uid="8a603d5a-5b5b-45e0-b30b-815d5148e9b5"/>
+        <COMPID name="Service" mc="Standard.Class" uid="fce9c1aa-eeac-489e-814a-efad0a5779d0"/>
+        <COMPID name="ServService" mc="Standard.Interface" uid="68a72d3e-2013-4aef-a3a2-92a98bf70e3e"/>
+        <COMPID name="OrderService" mc="Standard.Interface" uid="34c3fa64-429b-4f0a-8865-645b442e010e"/>
+        <COMPID name="OrderServiceImpl" mc="Standard.Class" uid="32276965-e41f-4560-96bb-446f972430ca"/>
+        <COMPID name="ServServiceImpl" mc="Standard.Class" uid="f942ac60-9074-42ee-9e7d-b29510724eb2"/>
+        <COMPID name="PrintController" mc="Standard.Class" uid="fdb337d7-540a-49fa-8c78-8d046f623a48"/>
+        <COMPID name="PrintService" mc="Standard.Interface" uid="d98727c5-b60c-474d-bada-41fe0eb5b049"/>
+        <COMPID name="PrintsServiceToFile" mc="Standard.Class" uid="fd0bf91c-b7d1-4989-82b1-993495af29e8"/>
+        <COMPID name="PrintServiceToPaper" mc="Standard.Class" uid="428b8b53-df94-4d3c-a475-6112255b3d6a"/>
+        <COMPID name="Status" mc="Standard.Class" uid="a3874f72-20ab-4228-a11f-9244ee307107"/>
+        <COMPID name="OrderContriller" mc="Standard.Class" uid="f38241d1-793f-4c19-8e6a-922f44514e63"/>
+        <COMPID name="ServiceController" mc="Standard.Class" uid="fdc4832b-3257-4dee-be5c-402509c46753"/>
+        <COMPID name="UserController" mc="Standard.Class" uid="3f72d313-3635-4945-b46f-ba2a94becec3"/>
+        <COMPID name="UserServiceImpl" mc="Standard.Class" uid="b4d630fc-7e78-4b6a-8584-040e02599f7c"/>
+        <COMPID name="UserService" mc="Standard.Interface" uid="d7328346-8b5f-469f-8098-d756bbef56d5"/>
+        <COMPID name="PrintServiceFactory" mc="Standard.Class" uid="cb15891b-d279-4223-b40c-3b4e956960a4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="crm_project " mc="Standard.ClassDiagram" uid="09bcfc34-6acb-4409-9c5a-236c2f42a4da"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

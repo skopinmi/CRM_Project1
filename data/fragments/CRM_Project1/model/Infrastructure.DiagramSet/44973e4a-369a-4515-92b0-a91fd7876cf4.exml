@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CRM_Project1" version="4">
+  <OBJECT>
+    <ID name="CRM_Project1" mc="Infrastructure.DiagramSet" uid="44973e4a-369a-4515-92b0-a91fd7876cf4"/>
+    <PID name="CRM_Project1" mc="Standard.Project" uid="786dd018-de48-48d7-bfe8-5994ed025847"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CRM_Project1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
