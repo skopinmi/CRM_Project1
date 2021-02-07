@@ -30,7 +30,7 @@
         <COMPID name="ServServiceImpl" mc="Standard.Class" uid="f942ac60-9074-42ee-9e7d-b29510724eb2"/>
         <COMPID name="PrintController" mc="Standard.Class" uid="fdb337d7-540a-49fa-8c78-8d046f623a48"/>
         <COMPID name="PrintService" mc="Standard.Interface" uid="d98727c5-b60c-474d-bada-41fe0eb5b049"/>
-        <COMPID name="PrintsServiceToFile" mc="Standard.Class" uid="fd0bf91c-b7d1-4989-82b1-993495af29e8"/>
+        <COMPID name="PrintServiceToFile" mc="Standard.Class" uid="fd0bf91c-b7d1-4989-82b1-993495af29e8"/>
         <COMPID name="PrintServiceToPaper" mc="Standard.Class" uid="428b8b53-df94-4d3c-a475-6112255b3d6a"/>
         <COMPID name="Status" mc="Standard.Class" uid="a3874f72-20ab-4228-a11f-9244ee307107"/>
         <COMPID name="OrderContriller" mc="Standard.Class" uid="f38241d1-793f-4c19-8e6a-922f44514e63"/>
@@ -39,6 +39,9 @@
         <COMPID name="UserServiceImpl" mc="Standard.Class" uid="b4d630fc-7e78-4b6a-8584-040e02599f7c"/>
         <COMPID name="UserService" mc="Standard.Interface" uid="d7328346-8b5f-469f-8098-d756bbef56d5"/>
         <COMPID name="PrintServiceFactory" mc="Standard.Class" uid="cb15891b-d279-4223-b40c-3b4e956960a4"/>
+        <COMPID name="PrintServiceToZipFile" mc="Standard.Class" uid="66518ab9-49f7-4b15-9165-46cae2bb2755"/>
+        <COMPID name="PrintServiceToFileDecorator" mc="Standard.Class" uid="713ce2f9-e5ad-4b24-b609-3fd738568632"/>
+        <COMPID name="PrintServiceToPdfFile" mc="Standard.Class" uid="683190eb-03b5-4614-ba04-c2c66a434c03"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="crm_project " mc="Standard.ClassDiagram" uid="09bcfc34-6acb-4409-9c5a-236c2f42a4da"/>

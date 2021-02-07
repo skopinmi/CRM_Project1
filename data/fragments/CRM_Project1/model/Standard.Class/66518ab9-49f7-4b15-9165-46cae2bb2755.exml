@@ -1,23 +1,23 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PrintServiceToFile" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PrintServiceToZipFile" version="4">
   <OBJECT>
-    <ID name="PrintServiceToFile" mc="Standard.Class" uid="fd0bf91c-b7d1-4989-82b1-993495af29e8"/>
+    <ID name="PrintServiceToZipFile" mc="Standard.Class" uid="66518ab9-49f7-4b15-9165-46cae2bb2755"/>
     <PID name="crm_project1" mc="Standard.Package" uid="e3b7e533-a836-4d4b-a770-4b69996a43c8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
-      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[PrintServiceToFile]]></ATT>
+      <ATT name="Name"><![CDATA[PrintServiceToZipFile]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedNaryEnd">
         <OBJECT>
-          <ID name="" mc="Standard.NaryAssociationEnd" uid="6c6105f5-8a84-40c0-88d1-5a7803d12b68"/>
+          <ID name="" mc="Standard.NaryAssociationEnd" uid="d1c70ffd-aae0-491e-9fe2-16d039cecd95"/>
           <ATTRIBUTES>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -33,24 +33,9 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="NaryAssociation">
-              <OBJECT>
-                <ID name="" mc="Standard.NaryAssociation" uid="61fcd050-da0f-4db0-8c16-ef7151c45b77"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="NaryEnd">
-                    <COMPID name="" mc="Standard.NaryAssociationEnd" uid="6c6105f5-8a84-40c0-88d1-5a7803d12b68"/>
-                    <REFOBJ>
-                      <ID name="" mc="Standard.NaryAssociationEnd" uid="99089640-a9b8-4f7b-b5a6-b8c442e29a50"/>
-                    </REFOBJ>
-                    <REFOBJ>
-                      <ID name="" mc="Standard.NaryAssociationEnd" uid="96fe40b6-33db-4587-8c53-556c1d13b5f7"/>
-                    </REFOBJ>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
+              <REFOBJ>
+                <ID name="" mc="Standard.NaryAssociation" uid="db66d929-1b09-43ec-8692-970d0dab0024"/>
+              </REFOBJ>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
