@@ -120,15 +120,15 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="Realized">
+      <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="cb11bfb7-dd42-443c-8a7c-a63372d0492b"/>
+          <ID name="" mc="Infrastructure.Dependency" uid="ed841f93-c65b-414a-94c4-fbe103d77004"/>
           <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Implemented">
+            <LINK relation="DependsOn">
               <ID name="PrintService" mc="Standard.Interface" uid="d98727c5-b60c-474d-bada-41fe0eb5b049"/>
             </LINK>
           </DEPENDENCIES>

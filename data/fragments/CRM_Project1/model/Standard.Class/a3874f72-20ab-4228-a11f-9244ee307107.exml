@@ -85,7 +85,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Customer" mc="Standard.Class" uid="8459f034-06b3-4c1e-95b5-47f8311241d4"/>
+              <ID name="User" mc="Standard.Class" uid="8459f034-06b3-4c1e-95b5-47f8311241d4"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

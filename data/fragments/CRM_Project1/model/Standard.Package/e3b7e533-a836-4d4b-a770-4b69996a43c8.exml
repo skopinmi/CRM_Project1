@@ -42,6 +42,10 @@
         <COMPID name="PrintServiceToZipFile" mc="Standard.Class" uid="66518ab9-49f7-4b15-9165-46cae2bb2755"/>
         <COMPID name="PrintServiceToFileDecorator" mc="Standard.Class" uid="713ce2f9-e5ad-4b24-b609-3fd738568632"/>
         <COMPID name="PrintServiceToPdfFile" mc="Standard.Class" uid="683190eb-03b5-4614-ba04-c2c66a434c03"/>
+        <COMPID name="Notifier" mc="Standard.Class" uid="df2206b5-f855-4447-bceb-0584578c43dd"/>
+        <COMPID name="EmailNotifier" mc="Standard.Class" uid="da5b64f5-382e-4e66-8e83-ace18c74985b"/>
+        <COMPID name="SMSNotifier" mc="Standard.Class" uid="1c63f738-839b-40b6-aa91-499529967e12"/>
+        <COMPID name="CustomerRepr" mc="Standard.Class" uid="7a3a5d8d-3e7a-4d6b-bf4f-1ae54bb14483"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="crm_project " mc="Standard.ClassDiagram" uid="09bcfc34-6acb-4409-9c5a-236c2f42a4da"/>
