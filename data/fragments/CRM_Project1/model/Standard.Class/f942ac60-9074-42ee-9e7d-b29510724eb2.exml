@@ -35,7 +35,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Service" mc="Standard.Class" uid="fce9c1aa-eeac-489e-814a-efad0a5779d0"/>
+              <ID name="ServiceMapper" mc="Standard.Class" uid="80bcdd65-fa43-4bc3-876a-e0a29c36758e"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

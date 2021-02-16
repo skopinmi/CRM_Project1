@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PrintServiceToFile" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UserIdentityMap" version="4">
   <OBJECT>
-    <ID name="PrintServiceToFile" mc="Standard.Class" uid="fd0bf91c-b7d1-4989-82b1-993495af29e8"/>
+    <ID name="UserIdentityMap" mc="Standard.Class" uid="d0bb8242-6886-4cd4-8a9e-8af520958b06"/>
     <PID name="crm_project1" mc="Standard.Package" uid="e3b7e533-a836-4d4b-a770-4b69996a43c8"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,44 +11,46 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[PrintServiceToFile]]></ATT>
+      <ATT name="Name"><![CDATA[UserIdentityMap]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedNaryEnd">
+      <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="" mc="Standard.NaryAssociationEnd" uid="6c6105f5-8a84-40c0-88d1-5a7803d12b68"/>
+          <ID name="userMap" mc="Standard.Attribute" uid="359cf34e-0864-4149-9fcd-866166e06de8"/>
           <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[userMap]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <COMP relation="NaryAssociation">
+            <LINK relation="Type">
+              <FOREIGNID name="undefined" mc="Standard.DataType" uid="00000004-0000-000f-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Standard.NaryAssociation" uid="61fcd050-da0f-4db0-8c16-ef7151c45b77"/>
+                <ID name="" mc="Infrastructure.Note" uid="204a9ed5-8443-456d-a362-15fb73b4d11e"/>
                 <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="NaryEnd">
-                    <COMPID name="" mc="Standard.NaryAssociationEnd" uid="6c6105f5-8a84-40c0-88d1-5a7803d12b68"/>
-                    <REFOBJ>
-                      <ID name="" mc="Standard.NaryAssociationEnd" uid="99089640-a9b8-4f7b-b5a6-b8c442e29a50"/>
-                    </REFOBJ>
-                    <REFOBJ>
-                      <ID name="" mc="Standard.NaryAssociationEnd" uid="96fe40b6-33db-4587-8c53-556c1d13b5f7"/>
-                    </REFOBJ>
-                  </COMP>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>

@@ -29,31 +29,6 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="OwnedNaryEnd">
-        <OBJECT>
-          <ID name="" mc="Standard.NaryAssociationEnd" uid="99089640-a9b8-4f7b-b5a6-b8c442e29a50"/>
-          <ATTRIBUTES>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="NaryAssociation">
-              <REFOBJ>
-                <ID name="" mc="Standard.NaryAssociation" uid="61fcd050-da0f-4db0-8c16-ef7151c45b77"/>
-              </REFOBJ>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

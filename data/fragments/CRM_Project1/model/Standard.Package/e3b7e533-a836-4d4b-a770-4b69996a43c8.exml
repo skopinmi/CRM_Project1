@@ -30,7 +30,6 @@
         <COMPID name="ServServiceImpl" mc="Standard.Class" uid="f942ac60-9074-42ee-9e7d-b29510724eb2"/>
         <COMPID name="PrintController" mc="Standard.Class" uid="fdb337d7-540a-49fa-8c78-8d046f623a48"/>
         <COMPID name="PrintService" mc="Standard.Interface" uid="d98727c5-b60c-474d-bada-41fe0eb5b049"/>
-        <COMPID name="PrintServiceToFile" mc="Standard.Class" uid="fd0bf91c-b7d1-4989-82b1-993495af29e8"/>
         <COMPID name="PrintServiceToPaper" mc="Standard.Class" uid="428b8b53-df94-4d3c-a475-6112255b3d6a"/>
         <COMPID name="Status" mc="Standard.Class" uid="a3874f72-20ab-4228-a11f-9244ee307107"/>
         <COMPID name="OrderContriller" mc="Standard.Class" uid="f38241d1-793f-4c19-8e6a-922f44514e63"/>
@@ -39,13 +38,26 @@
         <COMPID name="UserServiceImpl" mc="Standard.Class" uid="b4d630fc-7e78-4b6a-8584-040e02599f7c"/>
         <COMPID name="UserService" mc="Standard.Interface" uid="d7328346-8b5f-469f-8098-d756bbef56d5"/>
         <COMPID name="PrintServiceFactory" mc="Standard.Class" uid="cb15891b-d279-4223-b40c-3b4e956960a4"/>
-        <COMPID name="PrintServiceToZipFile" mc="Standard.Class" uid="66518ab9-49f7-4b15-9165-46cae2bb2755"/>
+        <COMPID name="PrintServiceToFile" mc="Standard.Class" uid="66518ab9-49f7-4b15-9165-46cae2bb2755"/>
         <COMPID name="PrintServiceToFileDecorator" mc="Standard.Class" uid="713ce2f9-e5ad-4b24-b609-3fd738568632"/>
-        <COMPID name="PrintServiceToPdfFile" mc="Standard.Class" uid="683190eb-03b5-4614-ba04-c2c66a434c03"/>
+        <COMPID name="PrintServiceToZipFile" mc="Standard.Class" uid="683190eb-03b5-4614-ba04-c2c66a434c03"/>
         <COMPID name="Notifier" mc="Standard.Class" uid="df2206b5-f855-4447-bceb-0584578c43dd"/>
         <COMPID name="EmailNotifier" mc="Standard.Class" uid="da5b64f5-382e-4e66-8e83-ace18c74985b"/>
         <COMPID name="SMSNotifier" mc="Standard.Class" uid="1c63f738-839b-40b6-aa91-499529967e12"/>
         <COMPID name="CustomerRepr" mc="Standard.Class" uid="7a3a5d8d-3e7a-4d6b-bf4f-1ae54bb14483"/>
+        <COMPID name="UserMapper" mc="Standard.Class" uid="77fbbc52-f038-412f-99bb-220c45992a23"/>
+        <COMPID name="OrderMapper" mc="Standard.Class" uid="f69a7be2-7765-4b82-8582-4eef33af27fc"/>
+        <COMPID name="ServiceMapper" mc="Standard.Class" uid="80bcdd65-fa43-4bc3-876a-e0a29c36758e"/>
+        <COMPID name="RoleRepository" mc="Standard.Class" uid="71f9d85a-d8e5-4a41-9c7e-fc6c07179861"/>
+        <COMPID name="StatusMapper" mc="Standard.Class" uid="89b6911f-9405-40ba-8521-845a43843d39"/>
+        <COMPID name="RoleMapper" mc="Standard.Class" uid="e1fc7f0c-7d58-4798-941a-e94258f48d47"/>
+        <COMPID name="OrderEntryMapper" mc="Standard.Class" uid="e687fda0-25d7-44bf-a4b6-6d645ef0639f"/>
+        <COMPID name="StatusRepository" mc="Standard.Class" uid="97ce309a-e099-4e25-afd2-f959b35457e9"/>
+        <COMPID name="UserRepository" mc="Standard.Class" uid="693a5584-5039-4154-ba48-c2ba5b8bfb64"/>
+        <COMPID name="OrderRepository" mc="Standard.Class" uid="c9588d61-b597-451f-be8a-6e665104fec6"/>
+        <COMPID name="OrderEnteryRepository" mc="Standard.Class" uid="2cc100e5-6133-4e95-8e26-d146502756e5"/>
+        <COMPID name="ServiceRepository" mc="Standard.Class" uid="09eddf39-d57c-45fc-ad24-8a97365fc659"/>
+        <COMPID name="UserIdentityMap" mc="Standard.Class" uid="d0bb8242-6886-4cd4-8a9e-8af520958b06"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="crm_project " mc="Standard.ClassDiagram" uid="09bcfc34-6acb-4409-9c5a-236c2f42a4da"/>

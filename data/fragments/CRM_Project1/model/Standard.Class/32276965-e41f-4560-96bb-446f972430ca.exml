@@ -35,7 +35,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Order" mc="Standard.Class" uid="200995e0-ddcb-4f43-bf82-956216668c38"/>
+              <ID name="OrderMapper" mc="Standard.Class" uid="f69a7be2-7765-4b82-8582-4eef33af27fc"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
